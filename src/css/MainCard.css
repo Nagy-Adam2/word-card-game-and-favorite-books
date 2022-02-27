@@ -1,0 +1,22 @@
+.MainCard {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.flash-card {
+  font-size: 24;
+  line-height: 72px;
+  width: 206px;
+  border: 1px solid black;
+  margin: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.flash-card.front {
+  background-color: rgb(200, 200, 200);
+}
+
+.flash-card.back {
+  background-color: rgb(232, 238, 209);
+}
