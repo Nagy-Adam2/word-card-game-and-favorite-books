@@ -3,7 +3,7 @@ import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
 import HomePage from './HomePage';
 import MainCard from './MainCard';
 import Book from './Book';
-import '../css/HomePage.css';
+import '../less/HomePage.less';
 
 class Router extends React.Component {
   render () {
