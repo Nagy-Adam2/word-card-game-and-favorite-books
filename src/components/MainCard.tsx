@@ -2,8 +2,7 @@ import React from 'react';
 import Card from "./Card"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '../less/Grid.less'
-import '../less/MainCard.less';
+import '../css/style.css';
 
 class MainCard extends React.Component {
   render () {

@@ -3,8 +3,7 @@ import Form from "./Form";
 import List from "./List";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '../less/Grid.less'
-import '../less/Book.less';
+import '../css/style.css';
 
 export interface IState {
   book: {

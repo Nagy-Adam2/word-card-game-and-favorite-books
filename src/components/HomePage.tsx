@@ -1,8 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '../less/Grid.less'
-import '../less/HomePage.less';
+import '../css/style.css';
 
 class HomePage extends React.Component {
   render () {

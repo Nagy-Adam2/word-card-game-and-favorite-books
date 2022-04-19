@@ -1,0 +1,134 @@
+.main-container {
+  display: grid;
+  grid-template-areas: "main main main" "main main main";
+  grid-template-columns: auto 97% auto;
+  grid-template-rows: auto 1fr;
+}
+.main {
+  grid-area: main;
+}
+@media (min-width: 668px) {
+  .main-container {
+    grid-template-areas: "main main" "main main";
+    grid-template-columns: auto 98%;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media (min-width: 476px) {
+  .main-container {
+    grid-template-areas: "main" "main" "main";
+    grid-template-columns: 98%;
+    grid-template-rows: auto 1fr 1fr;
+  }
+}
+.main-container {
+  grid-gap: 0.7em;
+}
+@media (min-width: 668px) {
+  .main-container {
+    grid-gap: 2.3em;
+  }
+}
+@media (min-width: 476px) {
+  .main-container {
+    grid-gap: 1.2em;
+  }
+}
+.Components-unordered-list {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  list-style: none;
+}
+.Components-list {
+  margin: 0.5rem 1rem;
+}
+.Components-list a {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.089);
+}
+.Components-list a:hover {
+  background-color: rgba(0, 0, 0, 0.089);
+}
+.HomePage {
+  text-align: center;
+  font-family: sans-serif;
+}
+.MainCard {
+  text-align: center;
+  font-family: sans-serif;
+}
+.flash-card {
+  font-size: 24;
+  line-height: 72px;
+  width: 206px;
+  border: 1px solid black;
+  margin: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+.flash-card.front {
+  background-color: #c8c8c8;
+}
+.flash-card.back {
+  background-color: #e8eed1;
+}
+.Book {
+  text-align: center;
+  font-family: sans-serif;
+}
+.List {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  max-width: 60rem;
+  margin: 0.1rem auto;
+  border: 0.1rem solid #000000;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.List-header {
+  display: flex;
+  align-items: center;
+}
+.List-header h2 {
+  color: #252424;
+}
+.List-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+}
+.List-note {
+  width: 30%;
+  text-align: left;
+}
+.Unordered-list-padding-left {
+  padding-left: 0px;
+}
+.AddToList {
+  display: flex;
+  flex-direction: column;
+  margin: 0.1rem auto;
+}
+@media (min-width: 992px) {
+  .AddToList {
+    width: 30rem;
+  }
+}
+.AddToList-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.3rem 0rem;
+}
+.AddToLiist-btn {
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #0b5468;
+  font-weight: 700;
+  color: white;
+  border: none;
+}
